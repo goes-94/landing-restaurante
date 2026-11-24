@@ -57,13 +57,13 @@ export default function HomePage() {
       {/* Imagem de fundo fixa no topo */}
       <div
         aria-hidden="true"
-        className="pointer-events-none fixed inset-x-0 top-0 z-0 h-[420px] bg-[url('/imgs/imgheader.png')] bg-cover bg-center bg-no-repeat sm:h-[560px]"
+        className="pointer-events-none fixed inset-x-0 top-0 z-0 h-[450px] bg-[url('/imgs/imgheader.png')] bg-cover bg-center bg-no-repeat sm:h-[560px]"
       />
 
       <Navbar />
 
       {/* Hero / Chamada Principal sobre a imagem de fundo */}
-      <section className="relative z-10 mx-auto max-w-6xl px-4 pt-5 pb-12 text-center font-mono sm:px-8 sm:pt-28">
+      <section className="relative z-10 mx-auto max-w-6xl px-4 pt-5 -mb-2 text-center font-mono sm:px-8 sm:pt-28">
         <h1 className="mx-auto max-w-4xl text-3xl font-bold leading-tight text-white drop-shadow sm:text-5xl lg:text-6xl">
           Feito no Fogo Intenso &amp; Verdadeiro.
         </h1>
