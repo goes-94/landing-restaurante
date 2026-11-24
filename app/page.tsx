@@ -63,7 +63,7 @@ export default function HomePage() {
       <Navbar />
 
       {/* Hero / Chamada Principal sobre a imagem de fundo */}
-      <section className="relative z-10 mx-auto max-w-6xl px-4 pt-20 pb-12 text-center font-mono sm:px-8 sm:pt-28">
+      <section className="relative z-10 mx-auto max-w-6xl px-4 pt-5 pb-12 text-center font-mono sm:px-8 sm:pt-28">
         <h1 className="mx-auto max-w-4xl text-3xl font-bold leading-tight text-white drop-shadow sm:text-5xl lg:text-6xl">
           Feito no Fogo Intenso &amp; Verdadeiro.
         </h1>
@@ -103,7 +103,7 @@ export default function HomePage() {
       </section>
 
       {/* Conteúdo principal escuro sobreposto */}
-      <main className="relative z-10 mt-4 rounded-t-[20px] bg-[#0d0d0d]/[0.95] px-4 py-12 font-mono text-white sm:px-8 lg:px-14 lg:py-20">
+      <main className="relative z-10 mt-4 rounded-t-[20px] bg-[#0d0d0d]/[0.95] px-4 py-2 font-mono text-white sm:px-8 lg:px-14 lg:py-20">
         <div id="sobre" className="mx-auto max-w-6xl space-y-16 lg:space-y-24">
           {/* Bloco 1: Gastronomia */}
           <div className="flex flex-col items-center justify-between gap-8 lg:flex-row lg:gap-12">
