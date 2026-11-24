@@ -50,7 +50,7 @@ export function Footer() {
       </div>
 
       <div className="mx-auto mt-6 flex max-w-6xl flex-col items-center justify-between gap-3 text-xs text-stone-500 sm:flex-row">
-        <p>© {new Date().getFullYear()} Todos os direitos reservados.</p>
+        <p>© 2026 Todos os direitos reservados.</p>
         <p>@redesocial.aqui</p>
       </div>
     </footer>
